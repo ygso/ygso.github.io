@@ -1,0 +1,253 @@
+/* FONTS */
+
+/* 
+
+    100    Extra Light or Ultra Light
+    200    Light or Thin
+    300    Book or Demi
+    400    Normal or Regular
+    500    Medium
+    600    Semibold, Demibold
+    700    Bold
+    800    Black, Extra Bold or Heavy
+    900    Extra Black, Fat, Poster or Ultra Black
+
+*/      
+    
+
+
+@font-face {
+    font-family: 'NowAlt';
+    src: url('NowAlt/Black/nowalt-black-webfont.eot');
+    src: url('NowAlt/Black/nowalt-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NowAlt/Black/nowalt-black-webfont.woff2') format('woff2'),
+         url('NowAlt/Black/nowalt-black-webfont.woff') format('woff'),
+         url('NowAlt/Black/nowalt-black-webfont.ttf') format('truetype'),
+         url('NowAlt/Black/nowalt-black-webfont.svg#now_altblack') format('svg');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'NowAlt';
+    src: url('NowAlt/Bold/nowalt-bold-webfont.eot');
+    src: url('NowAlt/Bold/nowalt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NowAlt/Bold/nowalt-bold-webfont.woff2') format('woff2'),
+         url('NowAlt/Bold/nowalt-bold-webfont.woff') format('woff'),
+         url('NowAlt/Bold/nowalt-bold-webfont.ttf') format('truetype'),
+         url('NowAlt/Bold/nowalt-bold-webfont.svg#now_altbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'NowAlt';
+    src: url('NowAlt/Light/nowalt-light-webfont.eot');
+    src: url('NowAlt/Light/nowalt-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NowAlt/Light/nowalt-light-webfont.woff2') format('woff2'),
+         url('NowAlt/Light/nowalt-light-webfont.woff') format('woff'),
+         url('NowAlt/Light/nowalt-light-webfont.ttf') format('truetype'),
+         url('NowAlt/Light/nowalt-light-webfont.svg#now_altlight') format('svg');
+    font-weight: 100 ;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'NowAlt';
+    src: url('NowAlt/Medium/nowalt-medium-webfont.eot');
+    src: url('NowAlt/Medium/nowalt-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NowAlt/Medium/nowalt-medium-webfont.woff2') format('woff2'),
+         url('NowAlt/Medium/nowalt-medium-webfont.woff') format('woff'),
+         url('NowAlt/Medium/nowalt-medium-webfont.ttf') format('truetype'),
+         url('NowAlt/Medium/nowalt-medium-webfont.svg#now_altmedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'NowAlt';
+    src: url('NowAlt/Regular/nowalt-regular-webfont.eot');
+    src: url('NowAlt/Regular/nowalt-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NowAlt/Regular/nowalt-regular-webfont.woff2') format('woff2'),
+         url('NowAlt/Regular/nowalt-regular-webfont.woff') format('woff'),
+         url('NowAlt/Regular/nowalt-regular-webfont.ttf') format('truetype'),
+         url('NowAlt/Regular/nowalt-regular-webfont.svg#now_altregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'NowAlt';
+    src: url('NowAlt/Thin/nowalt-thin-webfont.eot');
+    src: url('NowAlt/Thin/nowalt-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NowAlt/Thin/nowalt-thin-webfont.woff2') format('woff2'),
+         url('NowAlt/Thin/nowalt-thin-webfont.woff') format('woff'),
+         url('NowAlt/Thin/nowalt-thin-webfont.ttf') format('truetype'),
+         url('NowAlt/Thin/nowalt-thin-webfont.svg#now_altthin') format('svg');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+
+/* ****************************************************************************************************** */
+
+/* Fira Sans */
+/* http://www.fontsquirrel.com/fira-sans */   
+    
+@font-face {
+    font-family:'FiraSans';
+    src: url('FiraSans/Book/FiraSans-Book.eot');
+    src: url('FiraSans/Book/FiraSans-Book.eot') format('embedded-opentype'),
+         url('FiraSans/Book/FiraSans-Book.woff2') format('woff2'),
+         url('FiraSans/Book/FiraSans-Book.woff') format('woff'),
+         url('FiraSans/Book/FiraSans-Book.ttf') format('truetype');
+    font-weight:300; /* Book */
+    font-style:normal;
+    }   
+        
+@font-face {
+    font-family:'FiraSans';
+    src: url('FiraSans/BookItalic/FiraSans-BookItalic.eot');
+    src: url('FiraSans/BookItalic/FiraSans-BookItalic.eot') format('embedded-opentype'),
+         url('FiraSans/BookItalic/FiraSans-BookItalic.woff2') format('woff2'),
+         url('FiraSans/BookItalic/FiraSans-BookItalic.woff') format('woff'),
+         url('FiraSans/BookItalic/FiraSans-BookItalic.ttf') format('truetype');
+    font-weight:300; /* Book Italic */
+    font-style:italic;
+    }       
+    
+@font-face {
+    font-family:'FiraSans';
+    src: url('FiraSans/Regular/FiraSans-Regular.eot');
+    src: url('FiraSans/Regular/FiraSans-Regular.eot') format('embedded-opentype'),
+         url('FiraSans/Regular/FiraSans-Regular.woff2') format('woff2'),
+         url('FiraSans/Regular/FiraSans-Regular.woff') format('woff'),
+         url('FiraSans/Regular/FiraSans-Regular.ttf') format('truetype');
+    font-weight:400; /* Regular */
+    font-style:normal;
+    }   
+    
+@font-face {
+    font-family:'FiraSans';
+    src: url('FiraSans/RegularItalic/FiraSans-RegularItalic.eot');
+    src: url('FiraSans/RegularItalic/FiraSans-RegularItalic.eot') format('embedded-opentype'),
+         url('FiraSans/RegularItalic/FiraSans-RegularItalic.woff2') format('woff2'),
+         url('FiraSans/RegularItalic/FiraSans-RegularItalic.woff') format('woff'),
+         url('FiraSans/RegularItalic/FiraSans-RegularItalic.ttf') format('truetype');
+    font-weight:400; /* Regular Italic */
+    font-style:italic;
+    }   
+    
+@font-face {
+    font-family:'FiraSans';
+    src: url('FiraSans/Medium/FiraSans-Medium.eot');
+    src: url('FiraSans/Medium/FiraSans-Medium.eot') format('embedded-opentype'),
+         url('FiraSans/Medium/FiraSans-Medium.woff2') format('woff2'),
+         url('FiraSans/Medium/FiraSans-Medium.woff') format('woff'),
+         url('FiraSans/Medium/FiraSans-Medium.ttf') format('truetype');
+    font-weight:500; /* Medium */
+    font-style:normal;
+    }   
+    
+@font-face {
+    font-family:'FiraSans';
+    src: url('FiraSans/MediumItalic/FiraSans-MediumItalic.eot');
+    src: url('FiraSans/MediumItalic/FiraSans-MediumItalic.eot') format('embedded-opentype'),
+         url('FiraSans/MediumItalic/FiraSans-MediumItalic.woff2') format('woff2'),
+         url('FiraSans/MediumItalic/FiraSans-MediumItalic.woff') format('woff'),
+         url('FiraSans/MediumItalic/FiraSans-MediumItalic.ttf') format('truetype');
+    font-weight:500; /* Medium Italic */
+    font-style:italic;
+    }           
+    
+@font-face {
+    font-family:'FiraSans';
+    src: url('FiraSans/Bold/FiraSans-Bold.eot');
+    src: url('FiraSans/Bold/FiraSans-Bold.eot') format('embedded-opentype'),
+         url('FiraSans/Bold/FiraSans-Bold.woff2') format('woff2'),
+         url('FiraSans/Bold/FiraSans-Bold.woff') format('woff'),
+         url('FiraSans/Bold/FiraSans-Bold.ttf') format('truetype');
+    font-weight:700; /* Bold */
+    font-style:normal;
+    }           
+    
+@font-face {
+    font-family:'FiraSans';
+    src: url('FiraSans/BoldItalic/FiraSans-BoldItalic.eot');
+    src: url('FiraSans/BoldItalic/FiraSans-BoldItalic.eot') format('embedded-opentype'),
+         url('FiraSans/BoldItalic/FiraSans-BoldItalic.woff2') format('woff2'),
+         url('FiraSans/BoldItalic/FiraSans-BoldItalic.woff') format('woff'),
+         url('FiraSans/BoldItalic/FiraSans-BoldItalic.ttf') format('truetype');
+    font-weight:700; /* Bold Italic */
+    font-style:italic;
+    }   
+    
+@font-face {
+    font-family:'FiraSans';
+    src: url('FiraSans/ExtraBold/FiraSans-ExtraBold.eot');
+    src: url('FiraSans/ExtraBold/FiraSans-ExtraBold.eot') format('embedded-opentype'),
+         url('FiraSans/ExtraBold/FiraSans-ExtraBold.woff2') format('woff2'),
+         url('FiraSans/ExtraBold/FiraSans-ExtraBold.woff') format('woff'),
+         url('FiraSans/ExtraBold/FiraSans-ExtraBold.ttf') format('truetype');
+    font-weight:800; /* ExtraBold */
+    font-style:normal;
+    }   
+    
+@font-face {
+    font-family:'FiraSans';
+    src: url('FiraSans/ExtraBoldItalic/FiraSans-ExtraBoldItalic.eot');
+    src: url('FiraSans/ExtraBoldItalic/FiraSans-ExtraBoldItalic.eot') format('embedded-opentype'),
+         url('FiraSans/ExtraBoldItalic/FiraSans-ExtraBoldItalic.woff2') format('woff2'),
+         url('FiraSans/ExtraBoldItalic/FiraSans-ExtraBoldItalic.woff') format('woff'),
+         url('FiraSans/ExtraBoldItalic/FiraSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight:800; /* ExtraBold Italic */
+    font-style:italic;
+    }       
+    
+@font-face {
+    font-family:'FiraSans';
+    src: url('FiraSans/Heavy/FiraSans-Heavy.eot');
+    src: url('FiraSans/Heavy/FiraSans-Heavy.eot') format('embedded-opentype'),
+         url('FiraSans/Heavy/FiraSans-Heavy.woff2') format('woff2'),
+         url('FiraSans/Heavy/FiraSans-Heavy.woff') format('woff'),
+         url('FiraSans/Heavy/FiraSans-Heavy.ttf') format('truetype');
+    font-weight:900; /* Heavy */
+    font-style:normal;
+    }
+    
+@font-face {
+    font-family:'FiraSans';
+    src: url('FiraSans/HeavyItalic/FiraSans-HeavyItalic.eot');
+    src: url('FiraSans/HeavyItalic/FiraSans-HeavyItalic.eot') format('embedded-opentype'),
+         url('FiraSans/HeavyItalic/FiraSans-HeavyItalic.woff2') format('woff2'),
+         url('FiraSans/HeavyItalic/FiraSans-HeavyItalic.woff') format('woff'),
+         url('FiraSans/HeavyItalic/FiraSans-HeavyItalic.ttf') format('truetype');
+    font-weight:900; /* Heavy Italic */
+    font-style:italic;
+    }           
+
+        
+    
+    
+

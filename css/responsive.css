@@ -1,0 +1,224 @@
+/*---------------------------------------------------------------R E S P O N S I V E-----------------------------------------------------------------*/
+
+
+
+
+/*---------------------------------------Responsive 2000 et moins----------------------------------------*/
+
+
+@media screen and (max-width:2400px) {
+	body {
+		font-size:2.3em; 
+		}
+	.autoportrait{
+		padding-bottom: 5%;}
+	} /*mediascreen 2000*/
+/*---------------------------------------Responsive 1500 et moins----------------------------------------*/
+
+
+@media screen and (max-width:1800px) {
+
+
+	body {
+		font-size:2em; 
+		}
+	.lienlangue{font-size: 0.8em}
+
+	.autoportrait{
+		padding-top: 2%;}
+
+	.textepresentation{
+		                padding: 2.2%;
+		                font-size: 1.8em;
+						}
+	.competence {
+	height: 10px;
+	}
+
+	.bloc_competence img{width: 15%;}
+
+	
+	ul.liens {  
+		margin-top:15%;
+		margin-bottom: 0
+		}
+
+	#copyright{
+			   margin-top: 12%
+	 }
+
+	
+
+} /*mediascreen 1500*/
+
+/*---------------------------------------Responsive tablette----------------------------------------*/
+
+@media screen and (max-width:1024px) {
+
+
+	  svg {
+  width:70%;
+  height: 100%;
+  margin: 0em 0 0 0em;
+}
+    
+
+	    /* iPad portrait & landscape */
+	    /* iPhone6+ paysage = 960px */
+	    ul.grid {              /* Bloc qui contient les items de la grid */
+	    width:85%;  }
+
+	    ul.grid li {
+	    width:45.6%; /* Largeur des blocs pour grid 4 colonnes */
+	    } 
+	    ul.grid li:nth-child(3n)   {  
+	    margin-right:2%;
+	    }   
+
+	body.pushmenu-push-toright #global,.pushmenu-push-toright #global_interne {
+			opacity: 0.4;
+		}
+
+
+		h1,h2{font-size: 2em}
+
+	.container{display: block;
+				}
+
+	.lienlangue{display: none;}
+
+	#menu{display: none}
+
+	.bloc_titre{width: 40%;
+				margin-top: -30%;
+				}
+
+	.autoportrait{width:75%;
+		margin:auto;
+		margin-top: 2%;
+		float: none }
+
+	.textepresentation{width: 80%;
+						font-size:1.3em;
+						font-weight: medium;
+						}
+
+	.global_competence{width: 100%;
+						padding-bottom: 5%
+						}
+
+	.colonne_competence{width: 95%;
+						float: left;
+						margin-top: 50px;
+						margin-left: 5%;
+						margin-bottom: 10px;
+						color:#126cfc;
+						}
+
+	ul.liens {              
+		width:100%;
+		}	
+
+	ul.liens li {
+		width:25%;; 
+		}
+
+	ul.liens li:hover{opacity: 0.5}
+
+	#copyright{color:#ffd683;
+			   font-size:0.6em;
+			   text-align: center;
+			   position: relative;
+			   margin-top: 15%
+	 }
+
+	 #menuprojet{
+	 			display: none;
+	 			}
+
+	.titre_projet{width: 80%;
+					font-size: 0.8em;
+					}
+
+	.description_projet{width: 90%;}
+
+
+	.separateur{width:20%;}
+
+	.contenu{width:90%;}
+
+	.timbres{width: 90%;
+			margin-bottom: 2%;
+			}
+
+
+	.pied{width:8%;}
+
+	.cv{width: 95%}
+
+	.colonnecv{float:none;margin:none;}
+			
+
+} /*mediascreen tablette*/
+
+
+
+
+
+
+/*---------------------------------------responsive smartphone----------------------------------------*/
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+    /* Mobiles paysage */
+    /* iPhone6 paysage = 667px */
+    /* iPhone 5s paysage = 568px */
+    /* iPhone 4 paysage = 468 px */
+    ul.grid {              /* Bloc qui contient les items de la grid */
+    width:96%; 
+    margin:auto; }
+
+    ul.grid li {
+    width:100%; /* Largeur des blocs pour grid 4 colonnes */
+    margin:0;
+    } 
+
+    	  svg {
+  width:90%;
+  height: 100%;
+  margin: 0em 0 0 0em;
+}
+
+.autoportrait{width:95%;
+	margin:auto;
+	margin-top: 2%;
+	float: left; }
+
+.textepresentation{width: 95%;
+					font-size:1em;
+					font-weight: medium;
+					}
+
+.legende{display: none}
+.legendemobile{display: block}
+
+
+
+ul.liens li {
+	width:30%;; 
+	}
+
+} /*mediascreen mobile*/
+
+/*---------------------------------------Responsive 4k et plus----------------------------------------*/
+
+
+@media screen and (min-width:4000px) {
+	body {
+		font-size:5em; 
+		}
+	} /*mediascreen 4000*/

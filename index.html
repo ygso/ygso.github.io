@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8"> 
+
+    <title>Accueil | Yves-Gabriel So</title>
+  
+    <link rel="stylesheet" href="css/master.css" type="text/css" media="screen" />
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Le site de Yves-Gabriel So, étudiant en design graphique.">
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script> // Script permettant une animation de scroll dans la page
+    $(document).ready(function() {              
+        
+
+        $('.scrollTo').click( function() { // Au clic sur un élément
+            var page = $(this).attr('href'); // Page cible
+            var speed = 500; // Durée de l'animation (en ms)
+            $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+            return false;
+        });
+    });
+
+        $(document).ready(function() {
+        $menuLeft = $('.pushmenu-left');
+        $nav_list = $('#nav_list');
+        
+        $nav_list.click(function(e) {
+        e.stopPropagation();
+            $(this).toggleClass('active');
+            $('.pushmenu-push').toggleClass('pushmenu-push-toright');
+            $menuLeft.toggleClass('pushmenu-open');
+        });
+        $('html').click(function() {
+            $nav_list.removeClass('active');
+            $('.pushmenu-push').removeClass('pushmenu-push-toright');
+            $menuLeft.removeClass('pushmenu-open');
+        });
+    });
+
+</script>
+
+
+
+
+</head> <!-- On referme la partie head -->
+
+
+
+<body class="pushmenu-push"> <!-- La partie body contient tous les éléments de contenu -->
+
+<!-- menu mobile -->
+
+  <nav class="pushmenu pushmenu-left">
+    <a class="scrollTo" href="#section_titre">Accueil</a>
+    <a class="scrollTo" href="#section_apropos">Qui suis-je?</a>
+    <a class="scrollTo" href="#section_travaux">Projets</a>
+    <a class="scrollTo" href="#section_competences">Compétences</a>
+    <a class="scrollTo" href="#section_contact">Contact</a>
+    <a href="en/index.html"><span class="languechoisie">FR</span>/EN</a>
+  </nav>
+  
+<div class="container">
+        <div class="main">
+        <section class="buttonset">
+            <div id="nav_list">Menu</div>
+        </section>
+      
+  </div><!-- End Main -->
+</div><!-- End Container --> 
+
+<!-- fin menu mobile -->
+
+<div id="global">
+
+<ul id="menu">
+    <li><a class="scrollTo" href="#section_titre"><img src="images/logo.svg" /></a></li>
+    <li><a class="scrollTo" href="#section_apropos">Qui suis-je?</a></li>
+    <li><a class="scrollTo" href="#section_travaux">Projets</a></li>
+    <li><a class="scrollTo" href="#section_competences">Compétences</a></li>
+    <li><a class="scrollTo" href="#section_contact">Contact</a></li>
+</ul>
+<span class="lienlangue"><a class="languechoisie" href="#">FR</a>/<a href="en/index.html">EN</a></span>
+<div class="bloc" id="section_titre"> 
+
+<div id="illu">
+<svg class="composition" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1000px"
+     height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g class="tete">
+    <g>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M566,430.368
+            c0,6.147-5.373,11.632-12,11.632H447c-6.627,0-12-5.484-12-11.632V268.951c0-6.149,5.373-9.951,12-9.951h107
+            c6.627,0,12,3.802,12,9.951V430.368z"/>
+        <path fill="#ffd683" d="M463.04,295.5h-0.08c0.03-0.33,0.04-0.66,0.04-1C463,294.84,463.01,295.17,463.04,295.5z"/>
+        <path fill="#ffd683" d="M491.04,295.5h-0.08c0.03-0.33,0.04-0.66,0.04-1C491,294.84,491.01,295.17,491.04,295.5z"/>
+        <path fill="#ffd683" d="M519.04,295.5h-0.08c0.03-0.33,0.04-0.66,0.04-1C519,294.84,519.01,295.17,519.04,295.5z"/>
+        <path fill="#ffd683" d="M547.03,295.5h-0.07c0.03-0.33,0.04-0.66,0.04-1C547,294.84,547.01,295.17,547.03,295.5z"/>
+        <path fill="none" stroke="#ffd683" stroke-width="7" stroke-linejoin="round" stroke-miterlimit="10" d="M477.5,368.5
+            c0,6.627-5.373,12-12,12h-4c-6.627,0-12-5.373-12-12v-36c0-6.627,5.373-12,12-12h4c6.627,0,12,5.373,12,12V368.5z"/>
+        <path fill="none" stroke="#ffd683" stroke-width="7" stroke-linejoin="round" stroke-miterlimit="10" d="M554.5,368.5
+            c0,6.627-5.373,12-12,12h-4c-6.627,0-12-5.373-12-12v-36c0-6.627,5.373-12,12-12h4c6.627,0,12,5.373,12,12V368.5z"/>
+        <path fill="none" stroke="#ffd683" stroke-width="6" stroke-linejoin="round" stroke-miterlimit="10" d="M550,407.03
+            c0,5.021-4.873,9.97-11.5,9.97h-74c-6.627,0-12.5-4.949-12.5-9.97v-2.272c0-5.021,5.873-8.758,12.5-8.758h74
+            c6.627,0,11.5,3.736,11.5,8.758V407.03z"/>
+        <path class="pupilleg" fill="#ffd683" d="M476,366.5c0,3.59-2.91,6.5-6.5,6.5l0,0c-3.59,0-6.5-2.91-6.5-6.5v-17
+            c0-3.59,2.91-6.5,6.5-6.5l0,0c3.59,0,6.5,2.91,6.5,6.5V366.5z"/>
+        <path class="pupilled" fill="#ffd683" d="M555,366.5c0,3.59-2.91,6.5-6.5,6.5l0,0c-3.59,0-6.5-2.91-6.5-6.5v-17
+            c0-3.59,2.91-6.5,6.5-6.5l0,0c3.59,0,6.5,2.91,6.5,6.5V366.5z"/>
+        <path fill="#ffd683" d="M511,377c0,5.523-4.477,10-10,10l0,0c-5.523,0-10-4.477-10-10v-16c0-5.523,4.477-10,10-10l0,0
+            c5.523,0,10,4.477,10,10V377z"/>
+        <path fill="#ffd683" d="M566,291.5v4c0,6.63-0.95,11.5-6.24,11.5h-3.189c-5.011,0-9.13-5.09-9.54-11.25
+            c-0.021-0.33-0.03-0.785-0.03-1.125c0,0.34-0.01,0.857-0.04,1.188C546.45,301.973,541.29,307,535,307h-4
+            c-6.29,0-11.45-5.09-11.96-11.25c-0.03-0.33-0.04-0.785-0.04-1.125c0,0.34-0.01,0.857-0.04,1.188
+            C518.45,301.973,513.29,307,507,307h-4c-6.29,0-11.45-5.09-11.96-11.25c-0.03-0.33-0.04-0.785-0.04-1.125
+            c0,0.34-0.01,0.857-0.04,1.188C490.45,301.973,485.29,307,479,307h-4c-6.29,0-11.45-5.09-11.96-11.25
+            c-0.03-0.33-0.04-0.785-0.04-1.125c0,0.34-0.01,0.857-0.04,1.188C462.45,301.973,457.29,307,451,307h-4c-6.63,0-12-5.87-12-12.5
+            v-33.85c0-1.27,5.37-1.65,12-1.65h107c6.63,0,12,0.38,12,1.65v20.92C566,284.625,566,287.96,566,291.5z"/>
+        <line fill="none" stroke="#ffd683" stroke-width="7" stroke-miterlimit="10" x1="468.5" y1="397" x2="468.5" y2="417"/>
+        <line fill="none" stroke="#ffd683" stroke-width="7" stroke-miterlimit="10" x1="484.5" y1="397" x2="484.5" y2="417"/>
+        <line fill="none" stroke="#ffd683" stroke-width="7" stroke-miterlimit="10" x1="500.5" y1="397" x2="500.5" y2="417"/>
+        <line fill="none" stroke="#ffd683" stroke-width="7" stroke-miterlimit="10" x1="516.5" y1="397" x2="516.5" y2="417"/>
+        <line fill="none" stroke="#ffd683" stroke-width="7" stroke-miterlimit="10" x1="532.5" y1="397" x2="532.5" y2="417"/>
+        <path fill="none" stroke="#ffd683" stroke-width="7" stroke-linejoin="round" stroke-miterlimit="10" d="M433.5,410
+            c0,4.142-3.358,7.5-7.5,7.5l0,0c-4.142,0-7.5-3.358-7.5-7.5v-32c0-4.142,3.358-7.5,7.5-7.5l0,0c4.142,0,7.5,3.358,7.5,7.5V410z"/>
+        <path fill="none" stroke="#ffd683" stroke-width="7" stroke-linejoin="round" stroke-miterlimit="10" d="M581.5,410
+            c0,4.142-3.358,7.5-7.5,7.5l0,0c-4.142,0-7.5-3.358-7.5-7.5v-32c0-4.142,3.358-7.5,7.5-7.5l0,0c4.142,0,7.5,3.358,7.5,7.5V410z"/>
+    </g>
+</g>
+<g class="casquette">
+    <g>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-miterlimit="10" d="M570,137c0,6.627-5.373,12-12,12H444
+            c-6.627,0-12-5.373-12-12V78c0-6.627,5.373-12,12-12h114c6.627,0,12,5.373,12,12V137z"/>
+        <path fill="#ffd683" d="M632.138,120H570v17c0,6.627-5.373,12-12,12h-7.337c1.01,2.454,3.47,4,9.39,4h72.085
+            C643.18,153,652,147.627,652,141v-9C652,125.373,643.18,120,632.138,120z"/>
+        <path fill="#ffd683" d="M520,52.5c0,3.038-2.463,5.5-5.5,5.5h-27c-3.037,0-5.5-2.462-5.5-5.5l0,0c0-3.038,2.463-5.5,5.5-5.5h27
+            C517.537,47,520,49.462,520,52.5L520,52.5z"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-miterlimit="10" d="M493.5,66c0,0-19.5,5.5-19.5,18.25
+            s0,64.75,0,64.75"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-miterlimit="10" d="M510.5,66c0,0,19.5,5.5,19.5,18.25
+            s0,64.75,0,64.75"/>
+    </g>
+</g>
+<g class="synthe">
+    <g>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-miterlimit="10" d="M273,275c0,6.627-5.373,12-12,12H84
+            c-6.627,0-12-5.373-12-12V170c0-6.627,5.373-12,12-12h177c6.627,0,12,5.373,12,12V275z"/>
+        <circle fill="#ffd683" cx="93.75" cy="233" r="12.25"/>
+        <circle fill="#ffd683" cx="93.625" cy="195.875" r="7.625"/>
+        <circle fill="#ffd683" cx="114.625" cy="195.875" r="7.625"/>
+        <circle fill="#ffd683" cx="143.25" cy="178.5" r="4.25"/>
+        <circle fill="#ffd683" cx="161.25" cy="178.5" r="4.25"/>
+        <circle fill="#ffd683" cx="179.25" cy="178.5" r="4.25"/>
+        <circle fill="#ffd683" cx="197.25" cy="178.5" r="4.25"/>
+        <circle fill="#ffd683" cx="215.25" cy="178.5" r="4.25"/>
+        <circle fill="#ffd683" cx="233.25" cy="178.5" r="4.25"/>
+        <circle fill="#ffd683" cx="251.25" cy="178.5" r="4.25"/>
+        <circle fill="#ffd683" cx="143.25" cy="191.5" r="4.25"/>
+        <circle fill="#ffd683" cx="161.25" cy="191.5" r="4.25"/>
+        <circle fill="#ffd683" cx="179.25" cy="191.5" r="4.25"/>
+        <circle fill="#ffd683" cx="197.25" cy="191.5" r="4.25"/>
+        <circle fill="#ffd683" cx="215.25" cy="191.5" r="4.25"/>
+        <circle fill="#ffd683" cx="251.25" cy="191.5" r="4.25"/>
+        <circle fill="#ffd683" cx="161.25" cy="204.5" r="4.25"/>
+        <circle fill="#ffd683" cx="179.25" cy="204.5" r="4.25"/>
+        <circle fill="#ffd683" cx="251.25" cy="204.5" r="4.25"/>
+        <rect class="touche7" x="124" y="244" fill="#ffd683" width="12" height="28"/>
+        <rect class="touche6" x="144" y="244" fill="#ffd683" width="12" height="28"/>
+        <rect class="touche5" x="164" y="244" fill="#ffd683" width="12" height="28"/>
+        <rect class="touche4" x="184" y="244" fill="#ffd683" width="12" height="28"/>
+        <rect class="touche3" x="204" y="244" fill="#ffd683" width="12" height="28"/>
+        <rect class="touche2" x="224" y="244" fill="#ffd683" width="12" height="28"/>
+        <rect class="touche1" x="244" y="244" fill="#ffd683" width="12" height="28"/>
+        <line fill="none" stroke="#ffd683" stroke-width="8" stroke-miterlimit="10" x1="124" y1="233" x2="256" y2="233"/>
+    </g>
+</g>
+<g class="vinyle">
+    <g>
+        <circle fill="#ffd683" cx="836.338" cy="483.979" r="88.703"/>
+        <circle fill="#126CFC" cx="836.337" cy="483.98" r="36.239"/>
+        <circle fill="#ffd683" cx="836.338" cy="483.98" r="8.339"/>
+        <g class="stries">
+            <path fill="none" stroke="#126CFC" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M842.334,538.517
+                c-6.339,0-12.446-0.986-18.18-2.814c-17.91-5.71-32.154-19.632-38.307-37.342c-2.136-6.148-3.297-12.753-3.297-19.629"/>
+            <path fill="none" stroke="#126CFC" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M838.586,554.111
+                c-3.163,0-6.278-0.203-9.335-0.597c-29.647-3.817-53.679-25.575-60.852-54.035c-1.433-5.68-2.192-11.627-2.192-17.751"/>
+            <path fill="none" stroke="#126CFC" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M831.422,429.112
+                c6.338,0,12.446,0.986,18.179,2.813c17.911,5.711,32.153,19.632,38.308,37.342c2.136,6.148,3.297,12.754,3.297,19.63"/>
+            <path fill="none" stroke="#126CFC" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M835.17,413.517
+                c3.163,0,6.278,0.204,9.335,0.597c29.647,3.818,53.677,25.575,60.852,54.035c1.432,5.68,2.192,11.626,2.192,17.751"/>
+        </g>
+    </g>
+</g>
+<g class="ordinateur">
+    <g>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M918,856
+            c0,6.627-5.373,12-12,12H703c-6.627,0-12-5.373-12-12V725c0-6.627,5.373-12,12-12h203c6.627,0,12,5.373,12,12V856z"/>
+        <path class="ecran" fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M895,827.053
+            c0,6.046-5.373,10.947-12,10.947H726c-6.627,0-12-4.901-12-10.947v-82.105c0-6.046,5.373-10.947,12-10.947h157
+            c6.627,0,12,4.901,12,10.947V827.053z"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M870,913.5
+            c0,4.143-3.357,7.5-7.5,7.5h-116c-4.143,0-7.5-3.357-7.5-7.5l0,0c0-4.143,3.357-7.5,7.5-7.5h116
+            C866.643,906,870,909.357,870,913.5L870,913.5z"/>
+        <circle fill="#ffd683" cx="804.75" cy="853.25" r="7.25"/>
+        
+            <rect x="793" y="868" fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" width="22" height="38"/>
+    </g>
+</g>
+<g class="marqueur">
+    <g>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M927,281
+            c0,6.627-5.373,12-12,12H756c-6.627,0-12-5.373-12-12v-32c0-6.627,5.373-12,12-12h159c6.627,0,12,5.373,12,12V281z"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M744,279.5
+            c0,4.694-3.806,8.5-8.5,8.5l0,0c-4.694,0-8.5-3.806-8.5-8.5v-29c0-4.694,3.806-8.5,8.5-8.5l0,0c4.694,0,8.5,3.806,8.5,8.5V279.5z"
+            />
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M715.5,251H726v30h-10.5
+            h-10c-6.627,0-12.5-5.873-12.5-12.5v-6c0-6.627,5.873-11.5,12.5-11.5H715.5z"/>
+        <polyline fill="#ffd683" points="695,276 666.5,276 678.75,257 693,257       "/>
+        <path fill="#ffd683" d="M943,284.5c0,1.933-1.567,3.5-3.5,3.5l0,0c-1.933,0-3.5-1.567-3.5-3.5v-39c0-1.933,1.567-3.5,3.5-3.5l0,0
+            c1.933,0,3.5,1.567,3.5,3.5V284.5z"/>
+    </g>
+</g>
+<g class="sweat">
+    <g>
+        <g>
+            <path fill="#ffd683" d="M489,586v14h-15v-14h-8v17.563c0,2.144,1.857,4.437,4.001,4.437H489v6h-23v8h26.9
+                c2.143,0,4.1-2.32,4.1-4.464v-13.973v-0.428V586H489z"/>
+            <path fill="#ffd683" d="M535,594v-8h-26.963c-2.144,0-4.037,1.836-4.037,3.979v27.557c0,2.144,1.894,4.464,4.037,4.464h22.511
+                c2.144,0,4.452-2.44,4.452-4.584v-13.972c0-2.144-2.309-3.444-4.452-3.444H520v8h7v6h-15v-20H535z"/>
+            <path fill="#ffd683" d="M497,636v-8h-26.999c-2.144,0-4.001,1.753-4.001,3.896v13.584c0,2.144,1.857,3.52,4.001,3.52H489v6h-23v8
+                h26.9c2.143,0,4.1-1.791,4.1-3.936V645.48c0-2.143-1.957-4.48-4.1-4.48H474v-5H497z"/>
+            <path fill="#ffd683" d="M535,631.93c0-2.145-2.182-3.93-4.325-3.93h-22.627c-2.144,0-4.048,1.802-4.048,3.945v13.534
+                c0,2.144,1.904,3.521,4.048,3.521h22.627c2.144,0,4.325-1.393,4.325-3.536V631.93z M527,641h-15v-5h15V641z"/>
+            <rect x="504" y="655" fill="#ffd683" width="31" height="8"/>
+        </g>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M621,534h-92.127
+            c-1.347,14.766-13.756,26.334-28.873,26.334S472.474,548.766,471.127,534H379c-6.627,0-12,5.373-12,12v31c0,6.627,5.373,12,12,12
+            h66.031c-0.011,0.216-0.031,0.43-0.031,0.648v91.704c0,6.985,5.373,12.647,12,12.647h85c6.627,0,12-5.662,12-12.647v-91.704
+            c0-0.219-0.021-0.433-0.031-0.648H621c6.627,0,12-5.373,12-12v-31C633,539.373,627.627,534,621,534z"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M367,568.667
+            c0,4.603-3.73,8.333-8.333,8.333h-0.334c-4.603,0-8.333-3.73-8.333-8.333v-14.334c0-4.603,3.73-8.333,8.333-8.333h0.334
+            c4.603,0,8.333,3.73,8.333,8.333V568.667z"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M650,568.667
+            c0,4.603-3.73,8.333-8.333,8.333h-0.334c-4.603,0-8.333-3.73-8.333-8.333v-14.334c0-4.603,3.73-8.333,8.333-8.333h0.334
+            c4.603,0,8.333,3.73,8.333,8.333V568.667z"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M550,701.5
+            c0,4.143-3.357,7.5-7.5,7.5h-86c-4.143,0-7.5-3.357-7.5-7.5l0,0c0-4.143,3.357-7.5,7.5-7.5h86C546.643,694,550,697.357,550,701.5
+            L550,701.5z"/>
+    </g>
+</g>
+<g class="dino">
+    <g>
+        <path class="oeildino" fill="#ffd683" d="M196,697c0,5.523-4.478,10-10,10l0,0c-5.522,0-10-4.477-10-10v-27c0-5.523,4.478-10,10-10l0,0
+            c5.522,0,10,4.477,10,10V697z"/>
+        
+            <line fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" x1="53" y1="723" x2="164" y2="723"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M236,778l-0.75-34.336
+            c0.321-1.082-0.25-2.477-0.25-3.664v-30v-1v-64c0-6.627-4.373-11-11-11H48c-6.627,0-13,4.373-13,11v65c0,6.627,6.373,13,13,13h9
+            v17c0,6.627,6.373,13,13,13h109v57.694c0,7.901,6.373,15.306,13,15.306h40c3.108,0,87-48,87-48H236z"/>
+        <path fill="#126CFC" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M41.938,723
+            c0.066,6,5.198,11.412,11.527,11.412S64.927,729,64.993,723H41.938z"/>
+        <path fill="#126CFC" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M63.938,723
+            c0.066,6,5.198,11.412,11.527,11.412S86.927,729,86.993,723H63.938z"/>
+        <path fill="#126CFC" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M85.938,723
+            c0.066,6,5.198,11.412,11.527,11.412S108.927,729,108.993,723H85.938z"/>
+        <path fill="#126CFC" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M107.938,723
+            c0.066,6,5.198,11.412,11.527,11.412S130.927,729,130.993,723H107.938z"/>
+        <path fill="#126CFC" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M129.938,723
+            c0.066,6,5.198,11.412,11.527,11.412S152.927,729,152.993,723H129.938z"/>
+        
+            <line fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" x1="56" y1="656" x2="56" y2="676"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M179,780h-11
+            c0,0-5,0.166-5,5.999s0,9.001,0,9.001"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M179,804h-11
+            c0,0-5,0.166-5,5.999s0,9.001,0,9.001"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M178,860h12
+            c0,0,4-0.167,4-6s0-28,0-28"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M208,860h12
+            c0,0,4-0.167,4-6s0-28,0-28"/>
+    </g>
+</g>
+<g class="basket">
+    <g>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M605,858h-11.006
+            c-0.135,13.001-10.711,31.5-23.744,31.5s-23.609-10.499-23.744-23.5H399c-6.627,0-12,5.373-12,12v53c0,6.627,5.373,12,12,12h206
+            c6.627,0,12-5.373,12-12v-61C617,863.373,611.627,858,605,858z"/>
+        <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M407,866v50
+            c0,0-1,10,11,10s199,0,199,0"/>
+        <path fill="none" stroke="#ffd683" stroke-width="12" stroke-linejoin="round" stroke-miterlimit="10" d="M524,890v13
+            c0,0,1,7,8.5,7s47.5,0,47.5,0"/>
+        
+            <line fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" x1="447" y1="866" x2="447" y2="896"/>
+        
+            <line fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" x1="463" y1="866" x2="463" y2="896"/>
+        
+            <line fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" x1="479" y1="866" x2="479" y2="896"/>
+        
+            <line fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" x1="495" y1="866" x2="495" y2="896"/>
+        <path fill="#ffd683" d="M617,961.25c0,4.28-3.785,7.75-8.456,7.75H391.972c-4.67,0-8.972-3.47-8.972-7.75v-0.5
+            c0-4.28,4.302-7.75,8.972-7.75h216.572c4.671,0,8.456,3.47,8.456,7.75V961.25z"/>
+    </g>
+</g>
+<g class="crayon">
+    <g>
+        <path fill="none" stroke="#ffd683" stroke-width="9" stroke-linejoin="round" stroke-miterlimit="10" d="M76.922,483.5
+            c-8.654,0-16.422-5.123-16.422-11.75v-32c0-6.627,7.768-12.25,16.422-12.25h167.656c8.654,0,61.172,28,61.172,28
+            s-52.518,28-61.172,28H76.922z"/>
+        
+            <line fill="none" stroke="#ffd683" stroke-width="9" stroke-linejoin="round" stroke-miterlimit="10" x1="103.5" y1="427" x2="103.5" y2="483"/>
+        
+            <line fill="none" stroke="#ffd683" stroke-width="9" stroke-linejoin="round" stroke-miterlimit="10" x1="84.5" y1="427" x2="84.5" y2="483"/>
+        <path fill="none" stroke="#ffd683" stroke-width="9" stroke-linejoin="round" stroke-miterlimit="10" d="M244.578,427.25
+            c0,28-17.078,28-17.078,28s17.078,0.75,17.078,28"/>
+        
+            <line fill="none" stroke="#ffd683" stroke-width="9" stroke-linejoin="round" stroke-miterlimit="10" x1="228" y1="455.5" x2="103" y2="455.5"/>
+        
+            <line fill="none" stroke="#ffd683" stroke-width="9" stroke-linejoin="round" stroke-miterlimit="10" x1="279.5" y1="442" x2="279.5" y2="469"/>
+    </g>
+</g>
+<g class="traces">
+    <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M996,194H363
+        c-6.627,0-12-5.374-12-12.001V167.5V97c0-6.627-5.373-12-12-12H7"/>
+    <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M316,920H107
+        c-6.627,0-12,5.373-12,12v68"/>
+    <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M1000,51H771
+        c-6.627,0-12,5.373-12,12v131"/>
+    <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M4,562h290.998
+        c6.627,0,12.002,5.373,12.002,12v70v83c0,6.627,5.375,12,12.002,12H429.5h58.498c6.627,0,12.002,5.373,12.002,12v74"/>
+    <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M996,333H677
+        c-6.627,0-12,5.373-12,12v77v48.998c0,6.627-5.373,12.002-12,12.002h-57.5H362.001c-6.627,0-12.001-5.373-12.001-12v-70.5V371
+        c0-6.627-5.373-12-12-12H0"/>
+    <path fill="none" stroke="#ffd683" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" d="M316,996V837.002
+        c0-6.627,5.373-12.002,12-12.002h151h123c6.627,0,12-5.375,12-12.002V724v-78c0-6.627,5.373-12,12-12h370"/>
+</g>
+<g class="clous">
+    <circle fill="#ffd683" cx="316.861" cy="388.139" r="7.861"/>
+    <circle fill="#ffd683" cx="374.861" cy="165.139" r="7.861"/>
+    <circle fill="#ffd683" cx="785.861" cy="78.139" r="7.861"/>
+    <circle fill="#ffd683" cx="374.861" cy="461.139" r="7.861"/>
+    <circle fill="#ffd683" cx="640.861" cy="461.139" r="7.861"/>
+    <circle fill="#ffd683" cx="640.861" cy="663.139" r="7.861"/>
+    <circle fill="#ffd683" cx="587.861" cy="802.139" r="7.861"/>
+    <circle fill="#ffd683" cx="475.861" cy="763.139" r="7.861"/>
+    <circle fill="#ffd683" cx="332.861" cy="717.139" r="7.861"/>
+    <circle fill="#ffd683" cx="279.861" cy="590.139" r="7.861"/>
+    <circle fill="#ffd683" cx="118.861" cy="943.139" r="7.861"/>
+</g>
+<g class="cadre">
+    <g>
+        <path fill="#ffd683" d="M988,8c2.205,0,4,1.794,4,4v976c0,2.205-1.795,4-4,4H12c-2.206,0-4-1.795-4-4V12c0-2.206,1.794-4,4-4H988
+             M988,0H12C5.373,0,0,5.373,0,12v976c0,6.627,5.373,12,12,12h976c6.627,0,12-5.373,12-12V12C1000,5.373,994.627,0,988,0L988,0z"/>
+    </g>
+</g>
+</svg>
+ 
+</div><!-- illu -->
+
+</div><!-- bloc_titre -->
+
+
+</div><!-- accueil -->
+
+
+
+<div class="bloc" id="section_apropos"> 
+
+    <div class="titre"><h1>Qui suis-je?</h1></div>
+
+    <div class="autoportrait"><img src="images/autoportrait.svg"/></div>
+    <div class="textepresentation">Je m'appelle Yves-Gabriel So.<br>Je suis actuellement étudiant en BTS Design graphique option Médias Numériques.<br>J'aime toucher à tout, du graphisme au code, en passant par l'illustration, l'animation ou la photographie.  </div>
+</div><!-- apropos -->
+     
+
+
+<div class="bloc" id="section_travaux"> 
+
+   <div class="titre"> <h2 >Projets</h2></div>
+
+    <ul class="grid columns3">
+    
+        <li>
+            <a class="thumb" href="portfolio/refresh.html">
+               <span class="legendemobile">Refresh </span> <img src="images/vignette_refresh.png" /><span class="legende">Refresh</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="thumb" href="portfolio/fredturner.html">
+                <span class="legendemobile">Fred Turner </span><img src="images/vignette_fredturner.png" /><span class="legende">Fred Turner</span>
+            </a>
+        </li>  
+        
+        <li>
+            <a class="thumb" href="portfolio/trombinoscope.html">
+                <span class="legendemobile">Trombinoscope </span><img src="images/vignette_trombinoscope.png" /><span class="legende">Trombinoscope</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="thumb" href="portfolio/odyssee.html">
+                <span class="legendemobile">L'Odyssée </span><img src="images/vignette_odyssee.png" /><span class="legende">L'Odyssée</span>
+            </a>
+        </li> 
+
+        <li>
+            <a class="thumb" href="portfolio/voyageboutrue.html">
+                <span class="legendemobile">Au bout de ma rue </span><img src="images/vignette_voyageboutrue.png" /><span class="legende">Au bout de ma rue</span>
+            </a>
+        </li>   
+
+        <li>
+            <a class="thumb" href="portfolio/monstersinsevres.html">
+                <span class="legendemobile">Monsters in Sèvres</span><img src="images/vignette_monstersinsevres.png" /><span class="legende">Monsters in Sèvres</span>
+            </a>
+        </li>   
+
+        <li>
+            <a class="thumb" href="portfolio/iconyourapp.html">
+                <span class="legendemobile">Icon your app </span><img src="images/vignette_iconyourapp.png" /><span class="legende">Icon your app</span>
+            </a>
+        </li>
+
+        <li>
+            <a class="thumb" href="portfolio/timbres.html">
+                <span class="legendemobile">Timbres </span><img src="images/vignette_timbres.png" /><span class="legende">Timbres</span>
+            </a>
+        </li>
+                
+    
+    </ul><!-- ul .grid .columns2 -->
+
+</div><!-- travaux -->
+
+
+
+
+ <div class="bloc" id="section_competences"> 
+
+    <div class="titre"><h1>Compétences</h1></div>
+
+    <div class="global_competence">
+
+        <div class="colonne_competence">
+
+            <div class="titre_competence">Logiciels</div >
+
+            <div class="bloc_competence">
+                <img  src="images/photoshop.svg"></img>
+                <div class="competence" data-length="80"></div>
+            </div>
+
+            <div class="bloc_competence">
+                <img  src="images/illustrator.svg"></img>
+                <div class="competence" data-length="70"></div>
+            </div>
+
+            <div class="bloc_competence">
+                <img  src="images/indesign.svg"></img>
+                <div class="competence" data-length="70"></div>
+            </div>
+
+            <div class="bloc_competence">
+                <img  src="images/aftereffects.svg"></img>
+                <div class="competence" data-length="50"></div>
+            </div>
+
+        </div> <!-- colonne_competence -->
+
+         <div class="colonne_competence">
+
+                <div class="titre_competence">Langages</div >
+                
+                <div class="bloc_competence">
+                    Anglais
+                    <div class="competence" data-length="80"></div>
+                </div>
+
+                <div class="bloc_competence">
+                    Espagnol
+                    <div class="competence" data-length="40"></div>
+                </div>
+
+                <div class="bloc_competence">
+                    HTML, CSS
+                    <div class="competence" data-length="40"></div>
+                </div>
+
+                <div class="liencv">
+                <a href="portfolio/cv.html"><span class="liencv">Voir mon CV</span></a>
+                </div>
+
+
+        </div> <!-- colonne_competence -->
+        
+        <div style="clear:both;"></div>
+        
+
+    </div> <!-- global_competence -->
+
+</div><!-- travaux -->
+
+
+
+
+<div class="bloc" id="section_contact"> 
+
+    <div class="titre"><h2>Contact</h2></div>
+
+<ul class="liens">
+    <li><a href="mailto:yvesgabrielso@gmail.com" ><img src="images/picto_mail.png" /></a></li>
+    
+    <li><a href="https://www.facebook.com/ygsoooo/" onclick="window.open(this.href); return false;" ><img src="images/picto_facebook.png" /></a></li>
+    
+    <li><a href="https://twitter.com/YvesGabrielSo" onclick="window.open(this.href); return false;"><img src="images/picto_twitter.png" /></a></li>
+    
+    <li><a href="http://ygso.tumblr.com/" onclick="window.open(this.href); return false;"><img src="images/picto_tumblr.png" /></a></li>
+   
+   <li><a href="https://www.instagram.com/yvesgabrielso/"onclick="window.open(this.href); return false;"><img src="images/picto_insta.png" /></a></li>
+
+   <!--Le script Javascript "onclick" permet d'ouvrir les liens dans un nouvel onglet-->
+ 
+  </ul>
+<div id="copyright">Yves-Gabriel So - 2016</div>
+
+</div><!-- contact -->
+
+</div><!-- global -->
+
+
+</body> <!-- On referme la partie body -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73160051-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</html> <!-- On referme la page web -->
