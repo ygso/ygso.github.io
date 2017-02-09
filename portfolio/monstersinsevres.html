@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8"> 
+
+    <title>Monsters in Sèvres</title>
+  
+    <link rel="stylesheet" href="../css/master.css" type="text/css" media="screen" />
+    <link rel="shortcut icon" type="image/ico" href="../images/favicon.ico" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.scrollTo').click( function() { // Au clic sur un élément
+            var page = $(this).attr('href'); // Page cible
+            var speed = 500; // Durée de l'animation (en ms)
+            $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+            return false;
+        });
+    });
+
+    $(document).ready(function() {
+        $menuLeft = $('.pushmenu-left');
+        $nav_list = $('#nav_list2');
+        
+        $nav_list.click(function(e) {
+        e.stopPropagation();
+            $(this).toggleClass('active');
+            $('.pushmenu-push').toggleClass('pushmenu-push-toright');
+            $menuLeft.toggleClass('pushmenu-open');
+        });
+        $('html').click(function() {
+            $nav_list.removeClass('active');
+            $('.pushmenu-push').removeClass('pushmenu-push-toright');
+            $menuLeft.removeClass('pushmenu-open');
+        });
+    });
+</script>
+
+</head>
+<body class="pushmenu-push"> <!-- La partie body contient tous les éléments de contenu -->
+
+<div id="retour_haut"></div>
+
+<!-- menu mobile -->
+
+  <nav class="pushmenu pushmenu-left">
+    <a  href="../index.html#section_travaux">Accueil</a>
+    <a  href="refresh.html">Refresh</a>
+    <a  href="fredturner.html">Utopie numérique</a>
+    <a  href="trombinoscope.html">Trombinoscope</a>
+    <a  href="odyssee.html">Odyssée</a>
+    <a  href="voyageboutrue.html">Au bout de ma rue</a>
+    <a  href="monstersinsevres.html"><span id="lienactuel">Monsters in Sèvres</span></a>
+    <a  href="iconyourapp.html">Icon your app</a>
+    <a  href="timbres.html">Timbres</a>
+  </nav>
+  
+<div class="container">
+        <div class="main">
+        <section class="buttonset">
+            <div id="nav_list2">Menu</div>
+        </section>
+      
+  </div><!-- End Main -->
+</div><!-- End Container --> 
+
+<!-- fin menu mobile -->
+
+<div id="global_interne">
+
+<ul id="menuprojet">
+	<li><a  href="../index.html#section_travaux"><img src="../images/logo2.svg"></a></li>
+    <li><a  href="refresh.html">Refresh</a></li>
+    <li><a  href="fredturner.html">Utopie numérique</a></li>
+    <li><a  href="trombinoscope.html">Trombinoscope</a></li>
+    <li><a  href="odyssee.html">Odyssée</a></li>
+    <li><a  href="voyageboutrue.html">Au bout de ma rue</a></li>
+    <li><a  href="monstersinsevres.html"><span id="lienactuel">Monsters in Sèvres</span></a></li>
+    <li><a  href="iconyourapp.html">Icon your app</a></li>
+    <li><a  href="timbres.html">Timbres</a></li>
+    <li><a  href="../index.html#section_contact"><div id="liencontact">Contact</div></a></li>
+    <li><a  href="../images/cv.pdf">CV</li></a>
+</ul>
+
+
+<div class="titre_projet animation_titre"><h1>Monsters in Sèvres</h1></div>
+
+<div class="description_projet animation_texte">
+    <div class="date">Illustration, 2014</div>
+	Projet d'illustration sur photo mettant en scène une invasion de monstres dans la ville de Sèvres.
+</div>
+
+<div class="separateur animation_ligne"></div>
+
+<div class="contenu">
+<img src="../images/monstersinsevres/monstre1.jpg"></img>
+<img src="../images/monstersinsevres/monstre2.jpg"></img>
+<img src="../images/monstersinsevres/monstre3.jpg"></img>
+<img src="../images/monstersinsevres/monstre4.jpg"></img>
+<img src="../images/monstersinsevres/monstre5.jpg"></img>
+<img src="../images/monstersinsevres/photo.jpg"></img>
+<img src="../images/monstersinsevres/photo_1.jpg"></img>
+<img src="../images/monstersinsevres/photo_2.jpg"></img>
+<img src="../images/monstersinsevres/photo_3.jpg"></img>
+<h3><a href="http://monstersinsevres.tumblr.com/" onclick="window.open(this.href); return false;">Voir plus ici</a></h3>
+
+
+</div><!--contenu-->
+
+<div class="pied"><a class="scrollTo" href="#retour_haut"><img src="../images/retourhaut.svg"></img></a></div>
+
+</div> <!-- global_interne -->
+</body> <!-- On referme la partie body -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73160051-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html> <!-- On referme la page web -->

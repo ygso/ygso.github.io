@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+
+
+<head>
+    <meta charset="utf-8"> 
+
+    <title>Whole Earth Catalog</title>
+
+ <link rel="stylesheet" href="../styles.css" type="text/css" media="screen" />
+
+  
+<style> /* La partie CSS, qui gère les mises en forme des balises HTML */
+
+
+
+</style>
+
+</head> <!-- On referme la partie head -->
+
+<body id="page4"> <!-- La partie body contient tous les éléments de contenu -->
+
+<div id='global'> <!-- il va contenir tous les éléments de la page -->
+
+<h1>COMMODORE C112 CALCULATOR</h1>
+
+<div id='article'>
+<div class='paragraphe commodore' ><img src="../images/commodore.png"></img></div>
+
+<p1 class="paragraphe">The C112 is a twelve-digit, four function machine, with switch-selectable constant. It operates in floating decimal mode. Two neon-tube indicators behind red  jewels at the right end of the display panel indicate  overflow and negative sign conditions. The keyboard uses magnet-activated reed switches, making for reliable and bounce-free operation.The C112 is an LSI integrated circuit-based calculator.One board containing most of the logic has the AMI-made chip set (AMI Part numbers 0566 and 0567) that run the show. A few smaller small-scale IC's on this board provide support functions.</p1>
+
+<p1 class="paragraphe">The C112 performs the standard four functions. A push-on/push-off keyboard switch labeled "CON" enables or disables the constant function, which works for multiplication or division only. The "C" key clears everything, as expected. Addition and subtraction operate 'adding machine' style, with multiplication and division using the "+=" key to calculate the result. A small slider located to the left and below the display controls four plastic 'arrows' which the user can position to mark comma locations. The C112 does not provide leading/trailing zero suppression.</p1>
+
+
+<p1 class="paragraphe paragraphe2">Performing 999999 X 999999 gives the correct answer instantly, but incorrectly causes an overflow indication. In playing around with the machine, it seems that it has a tendency to give overflow indications when the result of a calculation should be within the range of the machine. I believe that this has something to do with the fact that the machine appears to have some difficulty with its implementation of floating decimal.
+	
+	<!--Ici est caché un paragraphe informatif sur le whole earth magazine -->
+	<p class='style1'> En 1969, parut confidentiellement aux Etats-Unis une publication qui est devenue depuis un mythe de la contre-culture. Cette publication s’intitulait le Whole Earth Catalog, « le catalogue de la terre entière », et il rassemblait tout ce qu’il fallait alors pour quitter la société et vivre dans l’autosuffisance - des graines, des outils, des tentes, mais aussi des livres – le livre indiquait comment se les procurer et qu’en faire. Entre 1968 et 1972, le Catalogue a connu un succès considérable dans les milieux communautaristes américains, les lecteurs envoyant des commentaires et des notices supplémentaires, et l’informatique naissante y pris une place importante, l’informatique et les machines conçues comme un moyen d’augmenter notre autonomie mais aussi les capacités de notre cerveau</p>  
+
+If a calculation results in a number which has a lot of digits behind the decimal point, IE: .12345678987, and you multiply this by a number with a few digits in front of the decimal point, for example, 157, the answer comes up as 9.38271601116, which is incorrect, and to add insult to injury, the overflow indicator is lit. This calculation should be within the range of the machine, but it appears that whatever algorithm is used to position the decimal point gets confused in such calculations and ends up mispositioning the decimal in the calculation, which causes an overflow. I don't believe that this is a problem with this particular machine, but a design defect which exists in all machines which use this particular AMI chipset. As with most electronic calculators, an overflow locks up the machine until the "C" key is pressed.<p1>
+
+
+</div> <!--on referme la partie aricle -->
+<a class='circuits' href="page5.html"></a>
+</div> <!--on referme le global -->
+
+
+</body> <!-- On referme la partie body -->
+</html> <!-- On referme la page web -->
